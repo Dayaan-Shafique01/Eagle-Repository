@@ -1,0 +1,122 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    background-color: #D2122E;
+    height: 55px;
+    font-size: 45px;
+    margin: 0 ;
+    padding: 0;
+}
+#list{
+    /* border:2px solid black; */
+    margin-top: -60px;
+    
+}
+#list ul{
+    background-color: #D2122E;
+}
+#list ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 50px;
+}
+#list ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-weight: bold;
+    display: block;
+}
+#list ul li{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#list ul ul{
+    position: absolute;
+    top: 100%;
+    background-color:#CD5C5C;
+    left: 0;
+    display: none;
+}
+#list ul ul li{
+    float: none;
+    width: 195px;
+
+}
+#list ul li:hover > ul{
+    display: block;
+}
+#list ul li:hover{
+    background-color: #A51C30;
+    border-bottom: 2px solid white;
+}
+button{
+    background-color: #fff;
+   width: 30px;
+   height: 27px;
+   border: 2px solid #fff;
+   border-radius: 3px ;
+}
+button:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px ; 
+   
+}
+#search{
+    margin-top: 15px;
+}
+.container .row img{
+    width: 450px;
+    height: 250px;
+    
+}
+.continer1 #sideheading{
+    background-color: #230509;
+    color: #ffffff;
+    font-size: 25px;
+    width:300px;
+    height:60px;
+    position:fixed;
+    z-index:10;
+    top:285px;
+}
+.continer1 #side-bar{
+    height: 100%;
+    position: fixed;
+    left:0;
+    top:285px;
+    height:322px;
+    width:300px;
+    text-align: center;
+    margin-top:60px;
+    background-color: #9e3040;
+}
+#side-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#side-bar ul li{
+    color: #fff;
+}   
+#side-bar ul li a{
+color: #fff;
+display: block;
+text-transform: uppercase;
+padding: 15px;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 2px solid rgb(66, 66, 95);
+border-top: 2px solid rgb(66, 66, 95);
+font-size:20px;
+}
