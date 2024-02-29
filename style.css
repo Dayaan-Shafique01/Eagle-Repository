@@ -1,6 +1,7 @@
-
-body{
+#Box{
     font-family: Arial, Helvetica, sans-serif;
+   background-color: #230509;
+   
 }
 .logo{
     background-color: #D2122E;
@@ -8,9 +9,10 @@ body{
     font-size: 45px;
     margin: 0 ;
     padding: 0;
+    
 }
 #list{
-    /* border:2px solid black; */
+    
     margin-top: -60px;
     
 }
@@ -23,7 +25,8 @@ body{
     margin: 0;
     padding: 0;
     float: right;
-    padding-right: 50px;
+    padding-right: 30px;
+    margin-right: 50px;
 }
 #list ul a{
     color:#fff;
@@ -49,7 +52,7 @@ body{
 }
 #list ul ul li{
     float: none;
-    width: 195px;
+    width: 185px;
 
 }
 #list ul li:hover > ul{
@@ -76,38 +79,43 @@ button:hover{
     margin-top: 15px;
 }
 .container .row img{
-    width: 450px;
+    width: 250px;
     height: 250px;
     
 }
-.continer1 #sideheading{
+.continer1 #sideheading h1 a{
     background-color: #230509;
     color: #ffffff;
-    font-size: 25px;
-    width:300px;
-    height:60px;
+  font-size: 30px;
+    width:240px;
+    height:40px;
     position:fixed;
     z-index:10;
-    top:285px;
+    top:60px;
 }
 .continer1 #side-bar{
     height: 100%;
     position: fixed;
     left:0;
-    top:285px;
-    height:322px;
-    width:300px;
+    top:40px;
+    border: 2px solid white;
+    height:325px;
+    width:240px;
     text-align: center;
     margin-top:60px;
     background-color: #9e3040;
+    
 }
 #side-bar ul {
     list-style: none;
     margin: 0;
     padding: 0;
+  
 }
 #side-bar ul li{
     color: #fff;
+    display: block;
+    
 }   
 #side-bar ul li a{
 color: #fff;
@@ -119,4 +127,9 @@ font-weight: bold;
 border-bottom: 2px solid rgb(66, 66, 95);
 border-top: 2px solid rgb(66, 66, 95);
 font-size:20px;
+
+
+}
+.continer1 #sideheading h1 u a:hover > ul {
+    display: block;
 }
